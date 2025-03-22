@@ -63,7 +63,7 @@ jobs:
 
   test_emulator:
     timeout-minutes: 30 # Emulator can get stuck
-    runs-on: macos-latest
+    runs-on: ubuntu-latest
     strategy:
       fail-fast: true
       matrix:
